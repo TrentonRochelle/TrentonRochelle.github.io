@@ -1,0 +1,25 @@
+title:              My Personal Website
+name:               Trenton Rochelle
+email:              trenton_rochelle@ucsb.edu
+description:        M.S. Computer Engineering Student
+author:             Trenton Rochelle
+url:                "https://TrentonRochelle.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    TrentonRochelle
+facebook_username:  
+instagram_username:  
+linkedin_username:  trenton-rochelle-31b1b5149
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
