@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    RTCM | UCSB ECE Senior Year Project - Trenton Rochelle
+    
+  </title>
+
+  <meta name="description" content="">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://trentonrochelle.github.io/2021/01/09/RTCM.html">
+  <link rel="alternate" type="application/rss+xml" title="My Personal Website" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background: #00000069;">
+  <div class="container">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/posts/rtcm_capstone/board v2.png')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>RTCM | UCSB ECE Senior Year Project</h1>
+            
+            <h2 class="subheading">Improved a real-time blood sensor prototype from Aptitude Medical Systems Inc. that aims to detect coagulopathy in a pre-hospital environment</h2>
+            
+            <span class="meta">Posted by
+              <a href="#">Trenton Rochelle</a>
+              on January 09, 2021 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <style>
+    h2 {font-size: 36px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    h3 {font-size: 20px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    h4 {font-size: 16px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    table {table-layout: fixed ;width: 100% ;text-align: justify;text-justify: inter-character;}
+    td {width: 25% ;text-align: center;}
+    p {text-align: justify; text-justify: inter-character; margin-top: 0}
+</style>
+
+<h2><b>UCSB Computer Engineering Capstone 2019-2020</b></h2>
+
+
+<p>
+    <h2>Development Team</h2>
+    <table style="width:100%">
+        <tr>
+            <td><img class="img-fluid" src="/img/posts/rtcm_capstone/trenton.jpg" alt="Demo Image" style="max-height:100%; max-width:100%"></td>
+            <td><img class="img-fluid" src="/img/posts/rtcm_capstone/justin.jpg" alt="Demo Image" style="max-height:100%; max-width:100%"></td>
+            <td><img class="img-fluid" src="/img/posts/rtcm_capstone/ziming.jpg" alt="Demo Image" style="max-height:100%; max-width:100%"></td>
+        </tr>
+        <tr>
+            <td>Trenton Rochelle</td>
+            <td>Justin Hemphill</td>
+            <td>Ziming Qi</td>
+        </tr>
+      </table>
+</p>
+
+
+
+<h2>Background</h2>
+<br>
+<h3>To minimize mortality of traumatically injured persons, coagulopathy must be assessed and addressed nearest to the time of injury. Coagulopathy of trauma is a hypo-coagulable state with increased bleeding and a 4x increased rate of mortality. </h3>
+<h3>Our project involved improving a handheld device that will be sold to and used by medical professionals in the field for detecting the levels of coagulation in the blood of trauma patients. 
+    To determine the systemic level of blood coagulation, electrochemical analysis is performed on a small chip containing the patient’s blood sample after the chip is inserted into the device. 
+    Predictable sample temperature is necessary to achieve an accurate measurement. 
+    The alpha prototype device had no temperature control mechanisms, no external charging mechanism, and is not spatially optimized.</h3>
+
+<br>
+<h2>Requirements</h2>
+<br>
+<ul style="margin-bottom: 0px;">
+    <li>
+        <h3> Temperature control - varying 15C-60C  with <.5C accuracy</h3>
+    </li>
+    <li>
+        <h3> Integrate modules into a PCB </h3>
+    </li>
+    <li>
+        <h3> Provide future expandability </h3>
+    </li>
+    <li>
+        <h3> Device charging in-use </h3>
+    </li>
+    <li>
+        <h3> Redesign enclosure </h3>
+    </li>
+    <li>
+        <h3> Quick and reliable readings </h3>
+    </li>
+    <li>
+        <h3> Bluetooth not allowed</h3>
+    </li>
+    <li>
+        <h3> Handheld </h3>
+    </li>
+    <li>
+        <h3> Blood scan + temperature control during charging </h3>
+    </li>
+    <li>
+        <h3> Android communication</h3>
+    </li>
+</ul>
+
+<p>
+    <h2>Simplified Block Diagram</h2>
+    <br>
+    <img class="img-fluid" src="/img/posts/rtcm_capstone/simplified diagram.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+</p>
+
+<h2>Parts Chosen</h2>
+<br>
+<h3>Android Phone</h3>
+<p>
+    Any Android smartphone with USB OTG is compatible with our system. OTG is required to maintain UART comminication with the microcontroller due to the dynamic usb host/slave configuration with charging
+</p>
+
+<h3>Microcontroller</h3>
+<p>
+    We were limited to the design of the previous alpha prototype which used the <a href="https://www.microchip.com/wwwproducts/en/ATSAMD21G18">SAMD21 Cortex-M0+ 32-bit low power ARM MCU</a> . This processor is used in the Arduino MKRZERO which allowed easy prototyping and vast open-source libraries
+</p>
+
+<h3>Potentiostat</h3>
+<p>
+    This element provides the ability to perform electrochemical measurements. For this we used the highly compact Emstat Pico by PalmSens.
+</p>
+
+<h3>Power System</h3>
+<p>
+    The Android phone supplied power to itself and we used a 1S 2500mAh LiPo battery to supply power to the rest of the electronics. Charging both the Android phone and the LiPo while maintaining power was made available through a modified Adafruit PowerBoost 1000C.
+</p>
+
+<h3>Temperature Reading</h3>
+<p>
+    A thin-film surface mounted thermistor (PT100) feeding into a MAX31865 digital amplifier was used to read the temperature on a rapidly changing basis. A PT100 was used due to it's low thermal mass, small size, and responsive thermal equilibrium.
+</p>
+
+<h3>Temperature Control</h3>
+<p>
+    The blood within the chip is heated or cooled by a Peltier Module where one side draws heat from the other side, where heat polarity is determined by current polarity. This can be controlled through an H-Bridge IC, polarity signal, and a PWM to determine power output.
+</p>
+<img class="img-fluid" src="/img/posts/rtcm_capstone/hbridge peltier.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+
+<h3>Temperature Control Algorithm</h3>
+<p>
+    We used a software PID (Proportional-Integral-Derivative) to adjust the PWM which controlled the H-Bridge IC power output. 
+    A PID is a control loop mechanism which employs feedback by continuously calculating an error value e(t) as the difference between a desired setpoint y(t) and a measured process variable r(t).
+    The feedback is a correction based on proportional, integral, and derivative terms, each multiplied by a respective weighting.
+    This control is shown below:
+</p>
+<img class="img-fluid" src="/img/posts/rtcm_capstone/PID.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+
+<h2>Hardware Block Diagram</h2>
+<img class="img-fluid" src="/img/posts/rtcm_capstone/Block Diagram.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2020/01/27/dreams.html" data-toggle="tooltip" data-placement="top" title="The dreams of yesterday are the hopes of today and the reality of tomorrow.">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:trenton_rochelle@ucsb.edu">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/trenton-rochelle-31b1b5149">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/TrentonRochelle">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Trenton Rochelle 2021</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
+
+</body>
+
+</html>

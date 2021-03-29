@@ -1,35 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://trentonrochelle.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://trentonrochelle.github.io/" rel="alternate" type="text/html" /><updated>2021-01-05T22:11:03-08:00</updated><id>https://trentonrochelle.github.io/feed.xml</id><title type="html">My Personal Website</title><subtitle>M.S. Computer Engineering Student</subtitle><author><name>Trenton Rochelle</name></author><entry><title type="html">The dreams of yesterday are the hopes of today and the reality of tomorrow.</title><link href="https://trentonrochelle.github.io/2020/01/27/dreams.html" rel="alternate" type="text/html" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." /><published>2020-01-27T19:45:13-08:00</published><updated>2020-01-27T19:45:13-08:00</updated><id>https://trentonrochelle.github.io/2020/01/27/dreams</id><content type="html" xml:base="https://trentonrochelle.github.io/2020/01/27/dreams.html">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&apos;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://trentonrochelle.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://trentonrochelle.github.io/" rel="alternate" type="text/html" /><updated>2021-03-28T19:58:35-07:00</updated><id>https://trentonrochelle.github.io/feed.xml</id><title type="html">My Personal Website</title><subtitle>M.S. Computer Engineering Student</subtitle><author><name>Trenton Rochelle</name></author><entry><title type="html">RTCM | UCSB ECE Senior Year Project</title><link href="https://trentonrochelle.github.io/2021/01/09/RTCM.html" rel="alternate" type="text/html" title="RTCM | UCSB ECE Senior Year Project" /><published>2021-01-09T19:45:13-08:00</published><updated>2021-01-09T19:45:13-08:00</updated><id>https://trentonrochelle.github.io/2021/01/09/RTCM</id><content type="html" xml:base="https://trentonrochelle.github.io/2021/01/09/RTCM.html">&lt;style&gt;
+    h2 {font-size: 36px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    h3 {font-size: 20px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    h4 {font-size: 16px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    table {table-layout: fixed ;width: 100% ;text-align: justify;text-justify: inter-character;}
+    td {width: 25% ;text-align: center;}
+    p {text-align: justify; text-justify: inter-character; margin-top: 0}
+&lt;/style&gt;
 
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&apos;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
+&lt;h2&gt;&lt;b&gt;UCSB Computer Engineering Capstone 2019-2020&lt;/b&gt;&lt;/h2&gt;
 
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
 
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&apos;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
+&lt;p&gt;
+    &lt;h2&gt;Development Team&lt;/h2&gt;
+    &lt;table style=&quot;width:100%&quot;&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/trenton.jpg&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/justin.jpg&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/ziming.jpg&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Trenton Rochelle&lt;/td&gt;
+            &lt;td&gt;Justin Hemphill&lt;/td&gt;
+            &lt;td&gt;Ziming Qi&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+&lt;/p&gt;
 
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
 
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3&gt;To minimize mortality of traumatically injured persons, coagulopathy must be assessed and addressed nearest to the time of injury. Coagulopathy of trauma is a hypo-coagulable state with increased bleeding and a 4x increased rate of mortality. &lt;/h3&gt;
+&lt;h3&gt;Our project involved improving a handheld device that will be sold to and used by medical professionals in the field for detecting the levels of coagulation in the blood of trauma patients. 
+    To determine the systemic level of blood coagulation, electrochemical analysis is performed on a small chip containing the patient’s blood sample after the chip is inserted into the device. 
+    Predictable sample temperature is necessary to achieve an accurate measurement. 
+    The alpha prototype device had no temperature control mechanisms, no external charging mechanism, and is not spatially optimized.&lt;/h3&gt;
 
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
+&lt;br&gt;
+&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;br&gt;
+&lt;ul style=&quot;margin-bottom: 0px;&quot;&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Temperature control - varying 15C-60C  with &lt;.5C accuracy&lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Integrate modules into a PCB &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Provide future expandability &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Device charging in-use &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Redesign enclosure &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Quick and reliable readings &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Bluetooth not allowed&lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Handheld &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Blood scan + temperature control during charging &lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h3&gt; Android communication&lt;/h3&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;blockquote class=&quot;blockquote&quot;&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
+&lt;p&gt;
+    &lt;h2&gt;Simplified Block Diagram&lt;/h2&gt;
+    &lt;br&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/simplified diagram.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
+&lt;/p&gt;
 
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
+&lt;h2&gt;Parts Chosen&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3&gt;Android Phone&lt;/h3&gt;
+&lt;p&gt;
+    Any Android smartphone with USB OTG is compatible with our system. OTG is required to maintain UART comminication with the microcontroller due to the dynamic usb host/slave configuration with charging
+&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
+&lt;h3&gt;Microcontroller&lt;/h3&gt;
+&lt;p&gt;
+    We were limited to the design of the previous alpha prototype which used the &lt;a href=&quot;https://www.microchip.com/wwwproducts/en/ATSAMD21G18&quot;&gt;SAMD21 Cortex-M0+ 32-bit low power ARM MCU&lt;/a&gt; . This processor is used in the Arduino MKRZERO which allowed easy prototyping and vast open-source libraries
+&lt;/p&gt;
 
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
+&lt;h3&gt;Potentiostat&lt;/h3&gt;
+&lt;p&gt;
+    This element provides the ability to perform electrochemical measurements. For this we used the highly compact Emstat Pico by PalmSens.
+&lt;/p&gt;
 
-&lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
+&lt;h3&gt;Power System&lt;/h3&gt;
+&lt;p&gt;
+    The Android phone supplied power to itself and we used a 1S 2500mAh LiPo battery to supply power to the rest of the electronics. Charging both the Android phone and the LiPo while maintaining power was made available through a modified Adafruit PowerBoost 1000C.
+&lt;/p&gt;
 
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
+&lt;h3&gt;Temperature Reading&lt;/h3&gt;
+&lt;p&gt;
+    A thin-film surface mounted thermistor (PT100) feeding into a MAX31865 digital amplifier was used to read the temperature on a rapidly changing basis. A PT100 was used due to it&apos;s low thermal mass, small size, and responsive thermal equilibrium.
+&lt;/p&gt;
 
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
+&lt;h3&gt;Temperature Control&lt;/h3&gt;
+&lt;p&gt;
+    The blood within the chip is heated or cooled by a Peltier Module where one side draws heat from the other side, where heat polarity is determined by current polarity. This can be controlled through an H-Bridge IC, polarity signal, and a PWM to determine power output.
+&lt;/p&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/hbridge peltier.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
 
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;</content><author><name>Trenton Rochelle</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&apos;s earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry><entry><title type="html">Dinosaurs are extinct today</title><link href="https://trentonrochelle.github.io/2020/01/26/dinosaurs.html" rel="alternate" type="text/html" title="Dinosaurs are extinct today" /><published>2020-01-26T19:45:13-08:00</published><updated>2020-01-26T19:45:13-08:00</updated><id>https://trentonrochelle.github.io/2020/01/26/dinosaurs</id><content type="html" xml:base="https://trentonrochelle.github.io/2020/01/26/dinosaurs.html">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&apos;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
+&lt;h3&gt;Temperature Control Algorithm&lt;/h3&gt;
+&lt;p&gt;
+    We used a software PID (Proportional-Integral-Derivative) to adjust the PWM which controlled the H-Bridge IC power output. 
+    A PID is a control loop mechanism which employs feedback by continuously calculating an error value e(t) as the difference between a desired setpoint y(t) and a measured process variable r(t).
+    The feedback is a correction based on proportional, integral, and derivative terms, each multiplied by a respective weighting.
+    This control is shown below:
+&lt;/p&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/PID.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
+
+&lt;h2&gt;Hardware Block Diagram&lt;/h2&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/Block Diagram.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;</content><author><name>Trenton Rochelle</name></author><summary type="html"></summary></entry><entry><title type="html">The dreams of yesterday are the hopes of today and the reality of tomorrow.</title><link href="https://trentonrochelle.github.io/2020/01/27/dreams.html" rel="alternate" type="text/html" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." /><published>2020-01-27T19:45:13-08:00</published><updated>2020-01-27T19:45:13-08:00</updated><id>https://trentonrochelle.github.io/2020/01/27/dreams</id><content type="html" xml:base="https://trentonrochelle.github.io/2020/01/27/dreams.html">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&apos;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
 
 &lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&apos;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
 
