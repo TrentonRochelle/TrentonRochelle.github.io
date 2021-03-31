@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://trentonrochelle.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://trentonrochelle.github.io/" rel="alternate" type="text/html" /><updated>2021-03-28T20:09:19-07:00</updated><id>https://trentonrochelle.github.io/feed.xml</id><title type="html">My Personal Website</title><subtitle>M.S. Computer Engineering Student</subtitle><author><name>Trenton Rochelle</name></author><entry><title type="html">RTCM | UCSB ECE Senior Year Project</title><link href="https://trentonrochelle.github.io/2021/01/09/RTCM.html" rel="alternate" type="text/html" title="RTCM | UCSB ECE Senior Year Project" /><published>2021-01-09T19:45:13-08:00</published><updated>2021-01-09T19:45:13-08:00</updated><id>https://trentonrochelle.github.io/2021/01/09/RTCM</id><content type="html" xml:base="https://trentonrochelle.github.io/2021/01/09/RTCM.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://trentonrochelle.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://trentonrochelle.github.io/" rel="alternate" type="text/html" /><updated>2021-03-31T00:18:56-07:00</updated><id>https://trentonrochelle.github.io/feed.xml</id><title type="html">My Personal Website</title><subtitle>M.S. Computer Engineering Student @ UCSB</subtitle><author><name>Trenton Rochelle</name></author><entry><title type="html">RRAM-Based Non-Von Neumann Computing</title><link href="https://trentonrochelle.github.io/2021/03/30/RRAM.html" rel="alternate" type="text/html" title="RRAM-Based Non-Von Neumann Computing" /><published>2021-03-30T20:45:13-07:00</published><updated>2021-03-30T20:45:13-07:00</updated><id>https://trentonrochelle.github.io/2021/03/30/RRAM</id><content type="html" xml:base="https://trentonrochelle.github.io/2021/03/30/RRAM.html">&lt;style&gt;
     h2 {font-size: 36px; font-weight: normal;text-align: justify;text-justify: inter-character;}
     h3 {font-size: 20px; font-weight: normal;text-align: justify;text-justify: inter-character;}
     h4 {font-size: 16px; font-weight: normal;text-align: justify;text-justify: inter-character;}
     table {table-layout: fixed ;width: 100% ;text-align: justify;text-justify: inter-character;}
     td {width: 25% ;text-align: center;}
     p {text-align: justify; text-justify: inter-character; margin-top: 0}
+    video {width: 100%    !important; height: auto   !important;}
+&lt;/style&gt;
+
+&lt;h2&gt;The final result&lt;/h2&gt;
+&lt;h4&gt;** &apos;Literature Review&apos; was an exportation error, this was the final course paper&lt;/h4&gt;
+&lt;iframe src=&quot;/img/posts/memory-centric computing/RRAM_Macro_Final.pdf&quot; width=&quot;100%&quot; height=1000px&gt;&lt;/iframe&gt;</content><author><name>Trenton Rochelle</name></author><summary type="html"></summary></entry><entry><title type="html">RTCM | UCSB ECE Senior Year Project</title><link href="https://trentonrochelle.github.io/2021/01/09/RTCM.html" rel="alternate" type="text/html" title="RTCM | UCSB ECE Senior Year Project" /><published>2021-01-09T22:45:13-08:00</published><updated>2021-01-09T22:45:13-08:00</updated><id>https://trentonrochelle.github.io/2021/01/09/RTCM</id><content type="html" xml:base="https://trentonrochelle.github.io/2021/01/09/RTCM.html">&lt;style&gt;
+    h2 {font-size: 36px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    h3 {font-size: 20px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    h4 {font-size: 16px; font-weight: normal;text-align: justify;text-justify: inter-character;}
+    table {table-layout: fixed ;width: 100% ;text-align: justify;text-justify: inter-character;}
+    td {width: 25% ;text-align: center;}
+    p {text-align: justify; text-justify: inter-character; margin-top: 0}
+    video {width: 100%    !important; height: auto   !important;}
 &lt;/style&gt;
 
 &lt;h2&gt;&lt;b&gt;UCSB Computer Engineering Capstone 2019-2020&lt;/b&gt;&lt;/h2&gt;
@@ -26,8 +39,12 @@
       &lt;/table&gt;
 &lt;/p&gt;
 
+&lt;h2&gt;Poster&lt;/h2&gt;
 
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/Final Poster.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
 
+&lt;br&gt;
+&lt;br&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
 &lt;br&gt;
 &lt;h3&gt;To minimize mortality of traumatically injured persons, coagulopathy must be assessed and addressed nearest to the time of injury. Coagulopathy of trauma is a hypo-coagulable state with increased bleeding and a 4x increased rate of mortality. &lt;/h3&gt;
@@ -73,83 +90,94 @@
 &lt;/ul&gt;
 
 &lt;p&gt;
-    &lt;h2&gt;Simplified Block Diagram&lt;/h2&gt;
+    &lt;h2&gt;Simplified Hardware Block Diagram&lt;/h2&gt;
     &lt;br&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/simplified diagram.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/simplified diagram.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%; text-align: center; display: block; margin-left: auto;  margin-right: auto;&quot;&gt;
 &lt;/p&gt;
 
 &lt;h2&gt;Parts Chosen&lt;/h2&gt;
 &lt;br&gt;
-&lt;h3&gt;Android Phone&lt;/h3&gt;
+&lt;h3&gt;&lt;b&gt;Android Phone&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;
-    Any Android smartphone with USB OTG is compatible with our system. OTG is required to maintain UART comminication with the microcontroller due to the dynamic usb host/slave configuration with charging
+    Any Android smartphone with USB OTG is compatible with our system. OTG is required to maintain serial communication with the microcontroller due to the dynamic usb host/slave configuration with charging
 &lt;/p&gt;
 
-&lt;h3&gt;Microcontroller&lt;/h3&gt;
+&lt;h3&gt;&lt;b&gt;Microcontroller&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;
     We were limited to the design of the previous alpha prototype which used the &lt;a href=&quot;https://www.microchip.com/wwwproducts/en/ATSAMD21G18&quot;&gt;SAMD21 Cortex-M0+ 32-bit low power ARM MCU&lt;/a&gt; . This processor is used in the Arduino MKRZERO which allowed easy prototyping and vast open-source libraries
 &lt;/p&gt;
 
-&lt;h3&gt;Potentiostat&lt;/h3&gt;
+&lt;h3&gt;&lt;b&gt;Potentiostat&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;
     This element provides the ability to perform electrochemical measurements. For this we used the highly compact Emstat Pico by PalmSens.
 &lt;/p&gt;
 
-&lt;h3&gt;Power System&lt;/h3&gt;
+&lt;h3&gt;&lt;b&gt;Power System&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;
     The Android phone supplied power to itself and we used a 1S 2500mAh LiPo battery to supply power to the rest of the electronics. Charging both the Android phone and the LiPo while maintaining power was made available through a TI TPS61090 and supporting circuitry.
 &lt;/p&gt;
 
-&lt;h3&gt;Temperature Reading&lt;/h3&gt;
+&lt;h3&gt;&lt;b&gt;Temperature Control&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;
-    A thin-film surface mounted thermistor (PT100) feeding into a MAX31865 digital amplifier was used to read the temperature on a rapidly changing basis. A PT100 was used due to it&apos;s low thermal mass, small size, and responsive thermal equilibrium.
+    The blood within the chip is heated or cooled by a Peltier module where one side draws heat from the other side, where heat polarity is determined by current polarity. 
+    This can be controlled through an H-Bridge IC, polarity signal, and a PWM to determine power output. 
+    The polarity of the current flowing through the Peltier module is shown below, where the red/blue indicate the temperature of the top of the Peltier.
+    
 &lt;/p&gt;
 
-&lt;h3&gt;Temperature Control&lt;/h3&gt;
-&lt;p&gt;
-    The blood within the chip is heated or cooled by a Peltier Module where one side draws heat from the other side, where heat polarity is determined by current polarity. This can be controlled through an H-Bridge IC, polarity signal, and a PWM to determine power output.
-&lt;/p&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/hbridge peltier.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/hbridge peltier.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%;&quot;&gt;
 
-&lt;h3&gt;Temperature Control Algorithm&lt;/h3&gt;
+&lt;br&gt;
+&lt;h3&gt;&lt;b&gt;Temperature Reading&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;
+    A thin-film surface mounted thermistor (PT100) feeding into a MAX31865 digital amplifier was used to read the temperature on a rapidly changing basis. 
+    A PT100 was used due to it&apos;s low thermal mass, small size, and responsive thermal equilibrium. 
+    Here is the peltier sandwiched between the RTD and the heat sink.
+    
+&lt;/p&gt;
+&lt;img class=&quot;img-fluid&quot;  src=&quot;/img/posts/rtcm_capstone/peltier_rtd_heatsink.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:50%; max-width:50%; text-align: center; display: block; margin-left: auto;  margin-right: auto;&quot;&gt;
+&lt;br&gt;
+&lt;h3&gt;&lt;b&gt;Temperature Control Algorithm&lt;/b&gt;&lt;/h3&gt;
 &lt;p&gt;
     We used a software PID (Proportional-Integral-Derivative) to adjust the PWM which controlled the H-Bridge IC power output. 
     A PID is a control loop mechanism which employs feedback by continuously calculating an error value e(t) as the difference between a desired setpoint y(t) and a measured process variable r(t).
     The feedback is a correction based on proportional, integral, and derivative terms, each multiplied by a respective weighting.
     This control is shown below:
 &lt;/p&gt;
+
+
+
 &lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/PID.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2&gt;Extended Hardware Block Diagram&lt;/h2&gt;
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/Block Diagram.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;
+&lt;br&gt;
+&lt;br&gt;
 
-&lt;h2&gt;Hardware Block Diagram&lt;/h2&gt;
-&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/rtcm_capstone/Block Diagram.png&quot; alt=&quot;Demo Image&quot; style=&quot;max-height:100%; max-width:100%&quot;&gt;</content><author><name>Trenton Rochelle</name></author><summary type="html"></summary></entry><entry><title type="html">The dreams of yesterday are the hopes of today and the reality of tomorrow.</title><link href="https://trentonrochelle.github.io/2020/01/27/dreams.html" rel="alternate" type="text/html" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." /><published>2020-01-27T19:45:13-08:00</published><updated>2020-01-27T19:45:13-08:00</updated><id>https://trentonrochelle.github.io/2020/01/27/dreams</id><content type="html" xml:base="https://trentonrochelle.github.io/2020/01/27/dreams.html">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&apos;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
+&lt;h2&gt;Android-MCU charging/communication&lt;/h2&gt;
+&lt;h3&gt;&lt;b&gt;Charging two separate systems&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;
 
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&apos;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
+    The hardware interface between the Android phone and the microcontroller was through USB OTG, but we ran into issues when plugging in and removing the usb cable. 
+    We wanted the Android phone to be isolated from the power system of the rest of the board, so the circuitry to the phone was set up such that it could only &quot;sink&quot; power and not charge the peltier device, but also communicate with the MCU. 
+    The data role between the Android phone and the MCU is a master/slave relationship for USB, but we could either only charge the phone and communicate, or communicate and not charge. 
+    This was solved by peeking into the Android operating system USB code and determining that the phone had preferred data role defaults: host within a non-charging state and a slave device during charging state.  
+    Once this was figured out, we kept the MCU to be a permanent slave, and the Android phone was rooted to call &quot;echo host &gt; /sys/class/typec/port0/data_role&quot; upon any change in the USB connection state. 
+    This setup allowed us the keep the phone in a permanent host state, and the MCU in a permanent slave state, with no communication interruptions during a charging state change.
 
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
+&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;Communication and hierarchy&lt;/b&gt;&lt;/h3&gt;
 
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&apos;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
+    Because the user was interfacing with the Android application and not the MCU, we decided that the Android phone would take care of the high-level information and control the MCU state, while the MCU would interface with the sensors and temperature control. 
+    Message passing between the two &quot;brains&quot; was done through JSON messages where the Android phone would tell the MCU what to do or what information to fetch, and the MCU would reply with an acknowledgement and the fetched data. 
+    This allowed for a host/slave relationship that allowed the two systems (Android/MCU) to be developed in parallel and to create a distinct hierarchy.
 
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
+&lt;/p&gt;
 
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote class=&quot;blockquote&quot;&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;.&lt;/p&gt;</content><author><name>Trenton Rochelle</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&apos;s earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry></feed>
+&lt;h2&gt; Final Demonstration &lt;/h2&gt;
+&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
+    &lt;source src=&quot;/img/posts/rtcm_capstone/RTCM Demo.mp4&quot; type=video/mp4&gt;
+&lt;/video&gt;</content><author><name>Trenton Rochelle</name></author><summary type="html"></summary></entry></feed>

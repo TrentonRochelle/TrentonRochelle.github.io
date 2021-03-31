@@ -2,7 +2,7 @@
 layout: post
 title: "RTCM | UCSB ECE Senior Year Project"
 subtitle: "Improved a real-time blood sensor prototype from Aptitude Medical Systems Inc. that aims to detect coagulopathy in a pre-hospital environment"
-date: 2021-01-09 23:45:13 -0400
+date: 2021-01-09 23:45:13 -0700
 background: '/img/posts/rtcm_capstone/board v2.png'
 ---
 <style>
@@ -12,6 +12,7 @@ background: '/img/posts/rtcm_capstone/board v2.png'
     table {table-layout: fixed ;width: 100% ;text-align: justify;text-justify: inter-character;}
     td {width: 25% ;text-align: center;}
     p {text-align: justify; text-justify: inter-character; margin-top: 0}
+    video {width: 100%    !important; height: auto   !important;}
 </style>
 
 <h2><b>UCSB Computer Engineering Capstone 2019-2020</b></h2>
@@ -33,8 +34,12 @@ background: '/img/posts/rtcm_capstone/board v2.png'
       </table>
 </p>
 
+<h2>Poster</h2>
 
+<img class="img-fluid" src="/img/posts/rtcm_capstone/Final Poster.png" alt="Demo Image" style="max-height:100%; max-width:100%">
 
+<br>
+<br>
 <h2>Background</h2>
 <br>
 <h3>To minimize mortality of traumatically injured persons, coagulopathy must be assessed and addressed nearest to the time of injury. Coagulopathy of trauma is a hypo-coagulable state with increased bleeding and a 4x increased rate of mortality. </h3>
@@ -80,52 +85,94 @@ background: '/img/posts/rtcm_capstone/board v2.png'
 </ul>
 
 <p>
-    <h2>Simplified Block Diagram</h2>
+    <h2>Simplified Hardware Block Diagram</h2>
     <br>
-    <img class="img-fluid" src="/img/posts/rtcm_capstone/simplified diagram.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+    <img class="img-fluid" src="/img/posts/rtcm_capstone/simplified diagram.png" alt="Demo Image" style="max-height:100%; max-width:100%; text-align: center; display: block; margin-left: auto;  margin-right: auto;">
 </p>
 
 <h2>Parts Chosen</h2>
 <br>
-<h3>Android Phone</h3>
+<h3><b>Android Phone</b></h3>
 <p>
-    Any Android smartphone with USB OTG is compatible with our system. OTG is required to maintain UART comminication with the microcontroller due to the dynamic usb host/slave configuration with charging
+    Any Android smartphone with USB OTG is compatible with our system. OTG is required to maintain serial communication with the microcontroller due to the dynamic usb host/slave configuration with charging
 </p>
 
-<h3>Microcontroller</h3>
+<h3><b>Microcontroller</b></h3>
 <p>
     We were limited to the design of the previous alpha prototype which used the <a href="https://www.microchip.com/wwwproducts/en/ATSAMD21G18">SAMD21 Cortex-M0+ 32-bit low power ARM MCU</a> . This processor is used in the Arduino MKRZERO which allowed easy prototyping and vast open-source libraries
 </p>
 
-<h3>Potentiostat</h3>
+<h3><b>Potentiostat</b></h3>
 <p>
     This element provides the ability to perform electrochemical measurements. For this we used the highly compact Emstat Pico by PalmSens.
 </p>
 
-<h3>Power System</h3>
+<h3><b>Power System</b></h3>
 <p>
     The Android phone supplied power to itself and we used a 1S 2500mAh LiPo battery to supply power to the rest of the electronics. Charging both the Android phone and the LiPo while maintaining power was made available through a TI TPS61090 and supporting circuitry.
 </p>
 
-<h3>Temperature Reading</h3>
+<h3><b>Temperature Control</b></h3>
 <p>
-    A thin-film surface mounted thermistor (PT100) feeding into a MAX31865 digital amplifier was used to read the temperature on a rapidly changing basis. A PT100 was used due to it's low thermal mass, small size, and responsive thermal equilibrium.
+    The blood within the chip is heated or cooled by a Peltier module where one side draws heat from the other side, where heat polarity is determined by current polarity. 
+    This can be controlled through an H-Bridge IC, polarity signal, and a PWM to determine power output. 
+    The polarity of the current flowing through the Peltier module is shown below, where the red/blue indicate the temperature of the top of the Peltier.
+    
 </p>
 
-<h3>Temperature Control</h3>
-<p>
-    The blood within the chip is heated or cooled by a Peltier Module where one side draws heat from the other side, where heat polarity is determined by current polarity. This can be controlled through an H-Bridge IC, polarity signal, and a PWM to determine power output.
-</p>
-<img class="img-fluid" src="/img/posts/rtcm_capstone/hbridge peltier.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+<img class="img-fluid" src="/img/posts/rtcm_capstone/hbridge peltier.png" alt="Demo Image" style="max-height:100%; max-width:100%;">
 
-<h3>Temperature Control Algorithm</h3>
+<br>
+<h3><b>Temperature Reading</b></h3>
+<p>
+    A thin-film surface mounted thermistor (PT100) feeding into a MAX31865 digital amplifier was used to read the temperature on a rapidly changing basis. 
+    A PT100 was used due to it's low thermal mass, small size, and responsive thermal equilibrium. 
+    Here is the peltier sandwiched between the RTD and the heat sink.
+    
+</p>
+<img class="img-fluid"  src="/img/posts/rtcm_capstone/peltier_rtd_heatsink.png" alt="Demo Image" style="max-height:50%; max-width:50%; text-align: center; display: block; margin-left: auto;  margin-right: auto;">
+<br>
+<h3><b>Temperature Control Algorithm</b></h3>
 <p>
     We used a software PID (Proportional-Integral-Derivative) to adjust the PWM which controlled the H-Bridge IC power output. 
     A PID is a control loop mechanism which employs feedback by continuously calculating an error value e(t) as the difference between a desired setpoint y(t) and a measured process variable r(t).
     The feedback is a correction based on proportional, integral, and derivative terms, each multiplied by a respective weighting.
     This control is shown below:
 </p>
-<img class="img-fluid" src="/img/posts/rtcm_capstone/PID.png" alt="Demo Image" style="max-height:100%; max-width:100%">
 
-<h2>Hardware Block Diagram</h2>
+
+
+<img class="img-fluid" src="/img/posts/rtcm_capstone/PID.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+<br>
+<br>
+<h2>Extended Hardware Block Diagram</h2>
 <img class="img-fluid" src="/img/posts/rtcm_capstone/Block Diagram.png" alt="Demo Image" style="max-height:100%; max-width:100%">
+<br>
+<br>
+
+<h2>Android-MCU charging/communication</h2>
+<h3><b>Charging two separate systems</b></h3>
+<p>
+
+    The hardware interface between the Android phone and the microcontroller was through USB OTG, but we ran into issues when plugging in and removing the usb cable. 
+    We wanted the Android phone to be isolated from the power system of the rest of the board, so the circuitry to the phone was set up such that it could only "sink" power and not charge the peltier device, but also communicate with the MCU. 
+    The data role between the Android phone and the MCU is a master/slave relationship for USB, but we could either only charge the phone and communicate, or communicate and not charge. 
+    This was solved by peeking into the Android operating system USB code and determining that the phone had preferred data role defaults: host within a non-charging state and a slave device during charging state.  
+    Once this was figured out, we kept the MCU to be a permanent slave, and the Android phone was rooted to call "echo host > /sys/class/typec/port0/data_role" upon any change in the USB connection state. 
+    This setup allowed us the keep the phone in a permanent host state, and the MCU in a permanent slave state, with no communication interruptions during a charging state change.
+
+</p>
+<h3><b>Communication and hierarchy</b></h3>
+
+<p>
+
+    Because the user was interfacing with the Android application and not the MCU, we decided that the Android phone would take care of the high-level information and control the MCU state, while the MCU would interface with the sensors and temperature control. 
+    Message passing between the two "brains" was done through JSON messages where the Android phone would tell the MCU what to do or what information to fetch, and the MCU would reply with an acknowledgement and the fetched data. 
+    This allowed for a host/slave relationship that allowed the two systems (Android/MCU) to be developed in parallel and to create a distinct hierarchy.
+
+</p>
+
+<h2> Final Demonstration </h2>
+<video width="320" height="240" controls>
+    <source src="/img/posts/rtcm_capstone/RTCM Demo.mp4" type=video/mp4>
+</video>
